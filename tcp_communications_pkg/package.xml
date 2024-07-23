@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>tcp_communications_pkg</name>
+  <version>0.0.0</version>
+  <description>TCP client and server nodes</description>
+  <maintainer email="lward@umes.edu">dreampc2</maintainer>
+  <license>Contact me and let me know what you want to use this for!
+  Don't just steal it, maybe I can help you learn/understand/implement/improve it.</license>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
